@@ -43,7 +43,7 @@ export const MenuLinks = () => {
         return (
           <li key={index}>
             <Link href={item.href}>
-              <span className="text-white">{item.name}</span>
+              <span className="text-white text-sm">{item.name}</span>
             </Link>
           </li>
         );
