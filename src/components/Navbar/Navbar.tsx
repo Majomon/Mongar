@@ -10,11 +10,11 @@ import {
 import Logo from "@/src/assets/Logo.png";
 import Image from "next/image";
 
-export const NavbarMenu = () => {
+export const Nav = () => {
   return (
     <Navbar>
       <NavbarBrand>
-        <Image src={Logo} alt="Logo" width={50} height={50} />
+        <Image src={Logo} width={20} height={20} alt="Logo" />
         <p className="font-bold text-inherit">ACME</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">

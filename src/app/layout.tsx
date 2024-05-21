@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { NavbarMenu } from "../components";
+import { Nav } from "../components";
 import { titleFont } from "../config/fonts";
 import "./globals.css";
+import { Providers } from "../context/Provider";
 
 export const metadata: Metadata = {
   title: "Mongar",
@@ -14,10 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={`${titleFont.className}`}>
-        <NavbarMenu />
-        {children}
+        <Providers>
+          <Nav />
+          {children}
+        </Providers>
       </body>
     </html>
   );

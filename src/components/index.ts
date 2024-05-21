@@ -1,1 +1,1 @@
-export {NavbarMenu} from "./Navbar/Navbar"
+export {Nav} from "./Navbar/Navbar"

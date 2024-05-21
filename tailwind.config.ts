@@ -1,7 +1,8 @@
-import type { Config } from "tailwindcss";
+// import type { Config } from "tailwindcss";
 const { nextui } = require("@nextui-org/react");
 
-const config: Config = {
+// const config: Config = {
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,7 +17,16 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      mongarFondo: {
+        100: "#0B1628",
+      },
+      mongarSecondary: {
+        100: "#1DB48D",
+      },
+    },
   },
+  darkMode: "class",
   plugins: [nextui()],
 };
-export default config;
+// export default config;
