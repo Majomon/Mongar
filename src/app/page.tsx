@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function HomePage() {
   return (
     <main className=" w-full min-h-screen">
-      <section className=" bg-[url('/image/Background-Section-We.png')] bg-no-repeat bg-cover h-[730px] relative">
-        <div className=" w-full h-fit flex items-center justify-between max-w-[1040px] absolute left-[50%] top-[38%] translate-x-[-50%] ">
+      <section className=" bg-[url('/image/Background-Section-We.png')] bg-no-repeat bg-cover bg-center md:bg-left h-[1350px] md:h-[730px] relative">
+        <div className="px-3 w-full h-fit flex flex-col md:flex-row items-center justify-between gap-8 max-w-[1040px] relative left-[50%] top-[38%] translate-x-[-50%] ">
           {/* <article></article> */}
           <Image
             src={"/image/Image-we-reference.png"}
@@ -39,7 +39,7 @@ export default function HomePage() {
               pellentesque in varius
             </p>
             {/* Hacer componente para Button (reutilizable)*/}
-            <button className=" font-semibold text-lg py-3 px-6 rounded-xl border-l-2 border-mossGreen-400 bg-gradient-to-r from-[#1DB48D]/20 to-[#0B493E]/10">
+            <button className=" w-full sm:w-fit font-semibold text-lg py-3 px-6 rounded-xl border-l-2 border-mossGreen-400 bg-gradient-to-r from-[#1DB48D]/20 to-[#0B493E]/10">
               Lorem Button
             </button>
           </article>
