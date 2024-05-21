@@ -74,6 +74,9 @@ const config: Config = {
           950: "#0b1628",
         },
       },
+      backgroundImage: {
+        "gradient-mossGreen": "linear-gradient(to right, #0b493e,#0b1628 )",
+      },
     },
   },
   plugins: [],

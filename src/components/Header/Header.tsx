@@ -2,6 +2,7 @@ import Image from "next/image";
 import Logo from "@/assets/Logo.png";
 import { MenuLinks } from "../MenuLinks/MenuLinks";
 import { ButtonGeneral } from "../ButtonContact/ButtonGeneral";
+import { NavbarResponsive } from "../NavbarResponsive/NavbarResponsive";
 
 export const Header = () => {
   return (
@@ -10,6 +11,7 @@ export const Header = () => {
         <Image src={Logo} alt="LogoMongar" width={20} height={20} />
         <MenuLinks />
         <ButtonGeneral href="#contact" label="Contactar" />
+        <NavbarResponsive />
       </nav>
     </header>
   );
