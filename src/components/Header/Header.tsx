@@ -5,7 +5,7 @@ import { ButtonGeneral } from "../ButtonContact/ButtonGeneral";
 
 export const Header = () => {
   return (
-    <header className="w-full h-14 bg-darkBlue-600">
+    <header className="w-full h-14">
       <nav className="w-full h-full px-8 flex items-center justify-between">
         <Image src={Logo} alt="LogoMongar" width={20} height={20} />
         <MenuLinks />

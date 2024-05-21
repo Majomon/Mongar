@@ -75,6 +75,9 @@ const config: Config = {
           950: "#0b1628",
         },
       },
+      backgroundImage: {
+        "bg-section-we": "url('/image/#0b1628')",
+      }
     },
   },
   plugins: [],

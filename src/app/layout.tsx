@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={lato.className}>
+      <body className={`${lato.className} bg-darkBlue-950 text-white`}>
         <Header />
         {children}
       </body>
