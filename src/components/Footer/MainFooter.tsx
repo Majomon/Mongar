@@ -6,8 +6,9 @@ import Link from "next/link";
 
 export const MainFooter = () => {
   return (
-    <div className="absolute inset-0 w-full h-git flex flex-col justify-center items-center gap-y-6">
-      <Link href={"#inicio"}>
+    <div className="absolute inset-0 w-full flex flex-col justify-center items-center gap-2">
+      
+      <Link href={"#inicio"} className="">
         <Image src={Logo} alt="Logo" width={20} height={20} />
       </Link>
       <MenuLinksFooter />

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const MenuLinksFooter = () => {
   return (
-    <ul className="hidden md:flex md:flex-row items-center gap-x-4">
+    <ul className="w-11/12 flex flex-wrap md:flex-row items-center justify-center gap-x-4">
       {listMenu.map((item, index) => (
         <li key={index}>
           <Link href={item.href}>
