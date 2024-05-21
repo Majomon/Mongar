@@ -14,7 +14,7 @@ export const NavbarResponsive = () => {
   };
 
   return (
-    <div className="md:hidden cursor-pointer">
+    <div className="md:hidden cursor-pointer z-50">
       <section className="block">
         <Image
           src={Menu}
