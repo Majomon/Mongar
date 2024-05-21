@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { MenuLinks } from "../MenuLinks/MenuLinks";
 import { ButtonGeneral } from "../ButtonContact/ButtonGeneral";
+import { NavbarResponsive } from "../NavbarResponsive/NavbarResponsive";
 
 export const Header = () => {
   return (
@@ -8,7 +9,8 @@ export const Header = () => {
       <nav className="w-full h-full px-8 flex items-center justify-between">
         <Image src={"/svg/Logo-main.svg"} alt="LogoMongar" width={38.5} height={55} />
         <MenuLinks />
-        <ButtonGeneral label={""} href={""} />
+        <ButtonGeneral href="#contact" label="Contactar" />
+        <NavbarResponsive />
       </nav>
     </header>
   );

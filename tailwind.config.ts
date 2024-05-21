@@ -77,7 +77,8 @@ const config: Config = {
       },
       backgroundImage: {
         "bg-section-we": "url('/image/#0b1628')",
-      }
+        "gradient-mossGreen": "linear-gradient(to right, #0b493e,#0b1628 )",
+      },
     },
   },
   plugins: [],
