@@ -1,6 +1,6 @@
-import { Montserrat_Alternates } from "next/font/google";
+import { Lato } from "next/font/google";
 
-export const titleFont = Montserrat_Alternates({
+export const titleFont = Lato({
   subsets: ["latin"],
-  weight: ["500", "700"],
+  weight: ["300", "400", "900", "700"],
 });

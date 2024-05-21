@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
-import { titleFont } from "@/config/fonts";
+import { Header } from "@/components";
 
-const inter = Inter({ subsets: ["latin"] });
+export const lato = Lato({
+  subsets: ["latin"],
+  weight: ["300", "400", "900", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${titleFont.className}`}>{children}</body>
+      <body className={`${lato.className} bg-darkBlue-950 text-white`}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
