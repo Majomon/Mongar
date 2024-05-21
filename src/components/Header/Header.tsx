@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { MenuLinks } from "../MenuLinks/MenuLinks";
-import { ButtonGeneral } from "../ButtonContact/ButtonGeneral";
+import { ButtonGeneral } from "../ButtonGral/ButtonGeneral";
 import { NavbarResponsive } from "../NavbarResponsive/NavbarResponsive";
 
 export const Header = () => {
