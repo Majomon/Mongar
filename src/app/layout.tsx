@@ -3,6 +3,7 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import { Header } from "../components";
+import { Footer } from "../components/Footer/Footer";
 
 export const lato = Lato({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={`${lato.className} bg-darkBlue-950 text-white`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

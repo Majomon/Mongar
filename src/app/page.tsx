@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import SectionWe from "../components/ui/SectionWe/SectionWe";
 
