@@ -5,7 +5,7 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -78,6 +78,7 @@ const config: Config = {
       backgroundImage: {
         "bg-section-we": "url('/image/#0b1628')",
         "gradient-mossGreen": "linear-gradient(to right, #0b493e,#0b1628 )",
+        "gradient-formContact": "linear-gradient(to bottom, #1a498a,#0b1628 )",
       },
     },
   },
