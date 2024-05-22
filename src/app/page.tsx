@@ -4,8 +4,8 @@ import ButtonGeneralMain from "@/components/ButtonGeneralMain/ButtonGeneralMain"
 
 export default function HomePage() {
   return (
-    <main className=" w-full min-h-screen relative overflow-x-hidden min-[900px]:overflow-x-visible ">
-      <section className=" w-full h-fit md:h-[580px] flex flex-col-reverse md:flex-row items-center justify-around gap-4 px-3 ">
+    <main className=" w-full min-h-screen overflow-x-hidden min-[900px]:overflow-x-visible">
+      <section className=" w-full h-fit md:h-[580px] flex flex-col-reverse md:flex-row items-center justify-around gap-4 px-3 relative">
         <article className="flex flex-col items-center justify-center md:items-start gap-y-8 md:w-[40%] md:max-w-[525px]">
           <div className=" flex flex-col md:flex-row gap-x-5 md:items-start items-center">
             <Image
@@ -28,22 +28,27 @@ export default function HomePage() {
         </article>
         {/* imagen principal del hero */}
         <article className=" w-full md:w-[60%] lg:w-fit ">
-          <Image src={"/image/imageHero.png"} width={730} height={578} alt="imagen de la seccion del Hero" />
+          <Image
+            src={"/image/imageHero.png"}
+            width={730}
+            height={578}
+            alt="imagen de la seccion del Hero"
+          />
         </article>
+        <Image
+          src={"/svg/Ellipse-hero-2.svg"}
+          className=" absolute top-[100px] left-[200px] -z-40 min-[900px]:left-[150px] min-[900px]:top-[250px] lg:top-[30%] min-w-[500px]"
+          width={706}
+          height={706}
+          alt="Elipce abajo"
+        />
       </section>
       <Image
         src={"/svg/Ellipse-Hero-1.svg"}
-        className=" absolute top-[-250px] left-[-150px] -z-40 min-w-[500px]"
+        className=" absolute top-[-150px] md:top-[-250px] left-[-150px] -z-40 min-w-[500px]"
         width={706}
         height={706}
         alt="Elipce arriba"
-      />
-      <Image
-        src={"/svg/Ellipse-hero-2.svg"}
-        className=" absolute top-[100px] left-[200px] -z-40 min-[900px]:left-[150px] min-[900px]:top-[250px] lg:top-[30%] min-w-[500px]"
-        width={706}
-        height={706}
-        alt="Elipce abajo"
       />
       <SectionWe />
     </main>
