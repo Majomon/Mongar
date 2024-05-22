@@ -9,7 +9,7 @@ export const Redes = () => {
         target="_blank"
       >
         <Image
-          src={"/image/social/Instagram.png"}
+          src={"/svg/Instagram.svg"}
           alt="Instagram"
           width={26}
           height={26}
@@ -21,7 +21,7 @@ export const Redes = () => {
         }
       >
         <Image
-          src={"/image/social/Email.png"}
+          src={"/svg/Email.svg"}
           alt="Email"
           width={26}
           height={26}
@@ -32,7 +32,7 @@ export const Redes = () => {
         target="_blank"
       >
         <Image
-          src={"/image/social/Facebook.png"}
+          src={"/svg/Facebook.svg"}
           alt="Facebook"
           width={26}
           height={26}
