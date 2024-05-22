@@ -1,6 +1,5 @@
 "use client";
 
-import Menu from "@/assets/MenuChocolate.png";
 import { listMenu } from "@/utils/ListMenuLinks";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,7 +16,7 @@ export const NavbarResponsive = () => {
     <div className="md:hidden cursor-pointer z-50">
       <section className="block">
         <Image
-          src={Menu}
+          src={"/svg/Menu-Chocolate.svg"}
           alt="MenuChocolate"
           width={30}
           height={30}
