@@ -3,7 +3,7 @@ import ContainTextSectionWe from "../../ContainTextSectionWe/ContainTextSectionW
 
 export default function SectionWe() {
   return (
-    <section className=" bg-[url('/image/Background-Section-We.png')] bg-no-repeat bg-cover bg-center md:bg-left h-[1350px] md:h-[730px] xl:h-[1040px] relative" id="nosotros">
+    <section className=" bg-[url('/image/Background-Section-We.png')] bg-no-repeat bg-cover bg-center md:bg-left h-[1180px] md:h-[730px] xl:h-[1040px] relative" id="nosotros">
       <div className="px-3 w-full h-fit flex flex-col md:flex-row items-center justify-between gap-8 max-w-[1040px] relative left-[50%] top-[65%] translate-y-[-50%] translate-x-[-50%] ">
         {/* <article></article> */}
         <Image
