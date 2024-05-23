@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <section
       id="contacto"
-      className="w-10/12 mx-auto h-fit flex  justify-center items-center my-16"
+      className="w-9/12 h-96 mx-auto flex justify-center items-end my-16"
     >
       <LinksContact />
       <FormContact />
