@@ -56,7 +56,12 @@ export const FormContact = () => {
             <span className="text-red-500">El mensaje es requerido</span>
           )}
         </div>
-        <button type="submit">Enviar</button>
+        <button
+          type="submit"
+          className=" w-full sm:w-fit font-semibold text-base py-2 px-6 rounded-xl border-l-2 flex items-center justify-center border-mossGreen-400 bg-gradient-to-r from-[#1DB48D]/20 to-[#0B493E]/10 relative overflow-hidden transition-all duration-500 ease-in-out  hover:scale-105 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-mossGreen-500 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-[#fff]"
+        >
+          Enviar
+        </button>
       </form>
     </div>
   );
