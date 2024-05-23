@@ -1,0 +1,18 @@
+<svg width="1022" height="1021" viewBox="0 0 1022 1021" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.02">
+<mask id="mask0_32_599" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-1" y="-1" width="1154" height="1022">
+<path d="M1152 0L1152 1019.02L0 1019.02L0 0L1152 0Z" fill="#D9D9D9" stroke="#3FC8A0" stroke-width="2"/>
+</mask>
+<g mask="url(#mask0_32_599)">
+<circle cx="1160.36" cy="1003.06" r="751.295" fill="#D4F7E8" stroke="#3FC8A0" stroke-width="2"/>
+</g>
+</g>
+<g opacity="0.15">
+<mask id="mask1_32_599" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="205" y="142" width="992" height="878">
+<path d="M1197 142V1019.49L205 1019.49L205 142L1197 142Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_32_599)">
+<circle cx="1204.2" cy="1005.75" r="647.81" fill="#ACEED5"/>
+</g>
+</g>
+</svg>
