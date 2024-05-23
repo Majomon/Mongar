@@ -1,4 +1,4 @@
-import PropTitleGeneral from "@/src/interfaces/PropTitleGeneral";
+import PropTitleGeneral from "@/interfaces/PropTitleGeneral";
 import Image from "next/image";
 
 export default function TitleGeneral({ name }: PropTitleGeneral) {
@@ -10,7 +10,7 @@ export default function TitleGeneral({ name }: PropTitleGeneral) {
         height={24}
         alt="item para el titulo -> izquierdo"
       />
-      <h2 className=" text-4xl font-bold">{ name }</h2>
+      <h2 className=" text-4xl font-bold">{name}</h2>
       <Image
         src={"/svg/item-titleGeneral.svg"}
         width={24}

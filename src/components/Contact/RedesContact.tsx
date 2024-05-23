@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export const Redes = () => {
+export const RedesContact = () => {
   return (
-    <div className="flex gap-4 justify-center items-center">
+    <div className="flex flex-col gap-4 text-xs">
       <Link
         href={"https://www.instagram.com/mongar.developer/"}
         target="_blank"
+        className="flex items-center gap-x-4"
       >
         <Image
           src={"/svg/Instagram.svg"}
@@ -14,22 +15,21 @@ export const Redes = () => {
           width={26}
           height={26}
         />
+        <p className="">Mongar Developer</p>
       </Link>
       <Link
         href={
           "mailto:mongar.developer@gmail.com?subject=Consulta%20por%20desarrollo%20web"
         }
+        className="flex gap-x-4"
       >
-        <Image
-          src={"/svg/Email.svg"}
-          alt="Email"
-          width={26}
-          height={26}
-        />
+        <Image src={"/svg/Email.svg"} alt="Email" width={26} height={26} />
+        <p>mongar.developer@gmail.com</p>
       </Link>
       <Link
         href={"https://www.facebook.com/profile.php?id=61552618487476"}
         target="_blank"
+        className="flex gap-x-4"
       >
         <Image
           src={"/svg/Facebook.svg"}
@@ -37,6 +37,7 @@ export const Redes = () => {
           width={26}
           height={26}
         />
+        <p>mongar.developer</p>
       </Link>
     </div>
   );
