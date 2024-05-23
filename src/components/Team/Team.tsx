@@ -59,7 +59,7 @@ export const Team = () => {
   return (
     /*     <section className="w-full h-screen mx-auto flex justify-center items-end bg-[url('/svg/Team.svg')] bg-no-repeat bg-cover bg-center relative">
      */
-    <section className="w-full h-[600px] relative py-10">
+    <section className="w-full h-[650px] relative py-10">
       <Image
         src={TeamImg}
         alt="Team"
@@ -72,14 +72,16 @@ export const Team = () => {
       </div>
       <div className="w-full flex justify-center items-center py-6 gap-x-10">
         {team.map((pers, index) => (
-          <div key={index} className="w-[300px] h-[400px]">
+          <div
+            key={index}
+            className="w-[300px] h-fit bg-gradient-cardTeam pb-2"
+          >
             <Image src={pers.img} alt={pers.name} width={300} height={300} />
             <div className="flex flex-col items-center justify-center gap-y-2">
               <h2 className="font-bold text-lg">{pers.name}</h2>
               <p className="font-semibold text-xs">{pers.area}</p>
-              <div className="flex items-center justify-center gap-x-1"></div>
+              <RedesTeam redes={pers.redes} />
             </div>
-            <RedesTeam redes={pers.redes} />
           </div>
         ))}
       </div>
