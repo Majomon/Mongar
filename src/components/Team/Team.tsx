@@ -10,24 +10,19 @@ const team = [
     area: "Full Stack Developer",
     redes: [
       {
-        icon: "",
-        name: "linkedin",
-        url: "https://www.linkedin.com/in/mauricio-monzon/",
-      },
-      {
-        icon: "",
+        icon: "svg/Facebook.svg",
         name: "facebook",
-        facebook: "https://www.facebook.com/mauri.monzon.568",
+        url: "https://www.facebook.com/mauri.monzon.568",
       },
       {
-        icon: "",
+        icon: "svg/Instagram.svg",
         name: "instagram",
-        instagram: "https://www.instagram.com/maurimonzon_j/",
+        url: "https://www.instagram.com/maurimonzon_j/",
       },
       {
-        icon: "",
+        icon: "svg/Github.svg",
         name: "github",
-        github: "https://github.com/Majomon",
+        url: "https://github.com/Majomon",
       },
     ],
   },
@@ -37,29 +32,24 @@ const team = [
     area: "Full Stack Developer",
     redes: [
       {
-        icon: "",
-        name: "linkedin",
-        url: "https://www.linkedin.com/in/mauricio-monzon/",
-      },
-      {
-        icon: "",
+        icon: "svg/Facebook.svg",
         name: "facebook",
-        facebook: "https://www.facebook.com/mauri.monzon.568",
+        url: "https://www.facebook.com/mauri.monzon.568",
       },
       {
-        icon: "",
+        icon: "svg/Instagram.svg",
         name: "instagram",
-        instagram: "https://www.instagram.com/maurimonzon_j/",
+        url: "https://www.instagram.com/maurimonzon_j/",
       },
       {
-        icon: "",
+        icon: "svg/Behance.svg",
         name: "behance",
-        behance: "",
+        url: "",
       },
       {
-        icon: "",
+        icon: "svg/Github.svg",
         name: "github",
-        github: "https://github.com/Majomon",
+        url: "https://github.com/Majomon",
       },
     ],
   },

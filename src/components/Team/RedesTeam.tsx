@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 // RedesTeam.tsx
 interface Props {
   redes: {
@@ -11,7 +14,16 @@ export const RedesTeam = ({ redes }: Props) => {
   return (
     <div className="flex items-center justify-center gap-x-2">
       {redes.map((red, index) => (
-        <div key={index}>{red.name}</div>
+        <div key={index}>
+          <Link href={red.url || ""} target="_blank">
+            <Image
+              src={red.icon || ""}
+              alt={red.name || ""}
+              width={20}
+              height={20}
+            />
+          </Link>
+        </div>
       ))}
     </div>
   );
