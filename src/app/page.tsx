@@ -1,5 +1,7 @@
 import Image from "next/image";
 import SectionWe from "../components/ui/SectionWe/SectionWe";
+import SectionHero from "@/components/ui/SectionHero/SectionHero";
+import { Contact } from "@/components/Contact/Contact";
 
 export default function HomePage() {
   return (
