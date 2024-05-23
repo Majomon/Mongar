@@ -1,4 +1,5 @@
 "use client";
+import { emailContact } from "@/actions/email";
 import { useForm } from "react-hook-form";
 
 interface IFormInput {
@@ -18,6 +19,10 @@ export const FormContact = () => {
     formData.append("message", data.message);
 
     console.log(data);
+
+    const response = await emailContact(formData);
+
+    return response;
   };
 
   return (
