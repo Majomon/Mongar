@@ -4,6 +4,7 @@ import "./globals.css";
 import React from "react";
 import { Header } from "../components";
 import { Footer } from "../components/Footer/Footer";
+import { Toaster } from "sonner";
 
 export const lato = Lato({
   subsets: ["latin"],
@@ -22,7 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.className} bg-darkBlue-950 text-white relative w-full`}>
+      <body
+        className={`${lato.className} bg-darkBlue-950 text-white relative w-full`}
+      >
+        <Toaster position="bottom-right" />
         <Header />
         {children}
         <Footer />
