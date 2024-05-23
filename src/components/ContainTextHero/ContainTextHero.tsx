@@ -13,7 +13,7 @@ export default function ContainTextHero() {
           className=" rotate-90 md:rotate-0"
           alt="Item del titulo principal"
         />
-        <h1 className=" text-5xl font-normal text-mossGreen-500 text-center md:text-left">
+        <h1 className=" text-4xl md:text-5xl font-normal text-mossGreen-500 text-center md:text-left">
           Diseño y Desarrollo <span className=" font-semibold">MONGAR</span>
         </h1>
       </div>
