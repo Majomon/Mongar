@@ -2,6 +2,7 @@ import Image from "next/image";
 import SectionWe from "../components/ui/SectionWe/SectionWe";
 import SectionHero from "@/components/ui/SectionHero/SectionHero";
 import { Contact } from "@/components/Contact/Contact";
+import { Team } from "@/components/Team/Team";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       />
       <SectionHero />
       <SectionWe />
+      <Team />
       <Contact />
     </main>
   );
