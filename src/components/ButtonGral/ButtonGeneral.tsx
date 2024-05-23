@@ -1,4 +1,4 @@
-import PropsButton from "@/src/interfaces/PropButton";
+import PropsButton from "@/interfaces/PropButton";
 import Link from "next/link";
 
 export const ButtonGeneral = ({ label, href }: PropsButton) => {

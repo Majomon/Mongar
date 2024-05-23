@@ -1,6 +1,5 @@
-import Image from "next/image";
-import TitleGeneral from "../TitleGeneral/TitleGeneral";
 import ButtonGeneralMain from "../ButtonGeneralMain/ButtonGeneralMain";
+import TitleGeneral from "../TitleGeneral/TitleGeneral";
 
 export default function ContainTextSectionWe() {
   return (
