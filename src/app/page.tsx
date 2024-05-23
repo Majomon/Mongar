@@ -15,6 +15,11 @@ export default function HomePage() {
         height={706}
         alt="Elipce arriba"
       />
+      <Image src={"/svg/Ellipses-group.svg"}
+        className=" absolute top-[150px] right-0 -z-40 hidden md:block"
+        width={1000}
+        height={820}
+        alt="grpo de Elipces"/>
       <SectionHero />
       <SectionWe />
       <Team />
