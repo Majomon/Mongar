@@ -74,12 +74,29 @@ const config: Config = {
           900: "#1a3760",
           950: "#0b1628",
         },
+        /* cardShadow:{
+          landing: "#4DD038",
+          crm:"#E8AA33",
+          ecommers:"#DA3DC1",
+          desing:"#12C0B6",
+          webSite:"#BF2121",
+          catalog:"#C0125B"
+        }, */
+        "landing": "#4DD038",
+        "crm": "#E8AA33",
+        "ecommers": "#DA3DC1",
+        "desing": "#12C0B6",
+        "webSite": "#BF2121",
+        "catalog": "#C0125B",
       },
       backgroundImage: {
         "bg-section-we": "url('/image/#0b1628')",
         "gradient-mossGreen": "linear-gradient(to right, #0b493e,#0b1628 )",
         "gradient-formContact": "linear-gradient(to bottom, #1a498a,#0b1628 )",
         "gradient-cardTeam": "linear-gradient(to right, #1a498a,#0b1628 )",
+      },
+      boxShadow: {
+        shadowCard: "0 0px 0px 3px rgba(0, 0, 0, 0.3)",
       },
     },
   },

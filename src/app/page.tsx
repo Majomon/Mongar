@@ -5,7 +5,7 @@ import { Contact } from "@/components/Contact/Contact";
 import { Team } from "@/components/Team/Team";
 import TitleGeneral from "@/components/TitleGeneral/TitleGeneral";
 import CardService from "@/components/CardService/CardService";
-import listServices from "../utils/"
+import listServices from "../utils/ListServices";
 
 export default function HomePage() {
   return (
@@ -27,7 +27,7 @@ export default function HomePage() {
       />
       <SectionHero />
       <SectionWe />
-      <section className=" w-full h-[950px] relative flex flex-col gap-y-14 items-center justify-center">
+      <section className=" w-full h-fit py-28 relative flex flex-col gap-y-14 items-center justify-center">
         <TitleGeneral name="Servicios" />
         <article className=" flex gap-4 flex-wrap items-center justify-center">
           {/* Cards de los diversos servicios */}
@@ -37,6 +37,8 @@ export default function HomePage() {
               title={item.title}
               icon={item.icon}
               description={item.description}
+              shadowColor={item.shadowColor}
+              color={item.color}
             />
           ))}
         </article>
