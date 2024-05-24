@@ -47,7 +47,7 @@ const listCardProtafolio: Portafolio[] = [
 
 export default function SectionPortafolio() {
   return (
-    <section className="py-28 flex flex-col gap-y-14 items-center justify-center bg-image-portafolio bg-no-repeat bg-cover bg-[center_bottom_24rem]">
+    <section className=" px-3 sm:px-0 py-28 flex flex-col gap-y-14 items-center justify-center bg-image-portafolio bg-no-repeat bg-cover bg-[center_bottom_24rem]">
       <TitleGeneral name="Portafolio" />
       <article className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* card de proyectos */}

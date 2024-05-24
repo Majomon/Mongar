@@ -14,7 +14,7 @@ export default function CardPortafolio({ src, href, name, category }: Portafolio
       onMouseLeave={() => setIsHover(false)}
     >
       <div
-        className={`absolute top-0 left-0 bg-mossGreen-900/90 w-[340px] h-[300px] z-10 transition-all duration-300  ${
+        className={`absolute top-0 left-0 bg-mossGreen-900/90 w-[300px] md:w-[340px] h-[300px] z-10 transition-all duration-300  ${
           isHover ? "top-0" : "-top-[300px]"
         }`}
       >
