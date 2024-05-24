@@ -11,11 +11,11 @@ export default function CardService({
   color,
 }: CardServices) {
   const [isHoverIcon, setIsHoverIcon] = useState(false);
-  console.log(`text-${shadowColor}`);
+  
   return (
     <div
-      className=" w-[280px] sm:w-[300px] lg:w-[340px] h-[300px] bg-[#142137] flex flex-col items-center justify-center gap-y-5"
-      onMouseOver={() => setIsHoverIcon(true)}
+      className={`w-[280px] sm:w-[300px] lg:w-[340px] h-[300px] bg-[#142137] flex flex-col items-center justify-center gap-y-5 `}
+      onMouseOver={() => {setIsHoverIcon(true),console.log(color)}}
       onMouseLeave={() => setIsHoverIcon(false)}
     >
       <Image
