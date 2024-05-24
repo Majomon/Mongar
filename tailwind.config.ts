@@ -91,6 +91,7 @@ const config: Config = {
       },
       backgroundImage: {
         "bg-section-we": "url('/image/#0b1628')",
+        "image-footer": "url('/svg/Background-footer.svg')",
         "gradient-mossGreen": "linear-gradient(to right, #0b493e,#0b1628 )",
         "gradient-formContact": "linear-gradient(to bottom, #1a498a,#0b1628 )",
         "gradient-cardTeam": "linear-gradient(to right, #1a498a,#0b1628 )",

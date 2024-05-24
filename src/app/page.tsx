@@ -1,12 +1,9 @@
-import Image from "next/image";
-import SectionWe from "../components/ui/SectionWe/SectionWe";
-import SectionHero from "@/components/ui/SectionHero/SectionHero";
 import { Contact } from "@/components/Contact/Contact";
 import { Team } from "@/components/Team/Team";
-import TitleGeneral from "@/components/TitleGeneral/TitleGeneral";
-import CardService from "@/components/CardService/CardService";
-import listServices from "../utils/ListServices";
+import SectionHero from "@/components/ui/SectionHero/SectionHero";
 import SectionServices from "@/components/ui/SectionServices/SectionServices";
+import Image from "next/image";
+import SectionWe from "../components/ui/SectionWe/SectionWe";
 
 export default function HomePage() {
   return (

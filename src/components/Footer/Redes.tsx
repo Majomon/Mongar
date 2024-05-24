@@ -11,8 +11,8 @@ export const Redes = () => {
         <Image
           src={"/svg/Instagram.svg"}
           alt="Instagram"
-          width={26}
-          height={26}
+          width={35}
+          height={35}
         />
       </Link>
       <Link
@@ -23,8 +23,8 @@ export const Redes = () => {
         <Image
           src={"/svg/Email.svg"}
           alt="Email"
-          width={26}
-          height={26}
+          width={35}
+          height={35}
         />
       </Link>
       <Link
@@ -34,8 +34,8 @@ export const Redes = () => {
         <Image
           src={"/svg/Facebook.svg"}
           alt="Facebook"
-          width={26}
-          height={26}
+          width={35}
+          height={35}
         />
       </Link>
     </div>
