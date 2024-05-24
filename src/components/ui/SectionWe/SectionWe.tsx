@@ -3,9 +3,8 @@ import ContainTextSectionWe from "../../ContainTextSectionWe/ContainTextSectionW
 
 export default function SectionWe() {
   return (
-    <section className=" bg-[url('/image/Background-Section-We.png')] bg-no-repeat bg-cover bg-center md:bg-left h-[1350px] md:h-[730px] relative" id="nosotros">
-      <div className="px-3 w-full h-fit flex flex-col md:flex-row items-center justify-between gap-8 max-w-[1040px] relative left-[50%] top-[38%] translate-x-[-50%] ">
-        {/* <article></article> */}
+    <section className= {`bg-[url('/svg/background-sectionWe.svg')] bg-no-repeat bg-cover bg-center sm:bg-top md:bg-left-top h-fit pt-40 pb-20 sm:pt-96 md:pt-0 md:pb-0 md:h-[800px] relative `} id="nosotros">
+      <div className=" px-3 w-full h-fit flex flex-col md:flex-row items-center justify-between gap-8 max-w-[1040px] relative left-[50%] top-[42%] translate-x-[-50%] ">
         <Image
           src={"/image/Image-we-reference.png"}
           width={365}
