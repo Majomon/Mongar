@@ -4,45 +4,8 @@ import SectionHero from "@/components/ui/SectionHero/SectionHero";
 import { Contact } from "@/components/Contact/Contact";
 import { Team } from "@/components/Team/Team";
 import TitleGeneral from "@/components/TitleGeneral/TitleGeneral";
-
-const listServices = [
-  {
-    icon: "/svg/Item-services-landingPage.svg",
-    title: "Landing Page",
-    description: `Lorem ipsum dolor sit amet consectetur. Ut congue semper laoreet
-    tortor nunc massa vel.`,
-  },
-  {
-    icon: "/svg/item-services-CRM.svg",
-    title: "CRM",
-    description: `Lorem ipsum dolor sit amet consectetur. Ut congue semper laoreet
-    tortor nunc massa vel.`,
-  },
-  {
-    icon: "/svg/Item-services-Ecommers.svg",
-    title: "E-commers",
-    description: `Lorem ipsum dolor sit amet consectetur. Ut congue semper laoreet
-    tortor nunc massa vel.`,
-  },
-  {
-    icon: "/svg/Item-services-desing.svg",
-    title: "Rediseño Web",
-    description: `Lorem ipsum dolor sit amet consectetur. Ut congue semper laoreet
-    tortor nunc massa vel.`,
-  },
-  {
-    icon: "/svg/Item-services-websiteCoding.svg",
-    title: "Sitios Web Coorporativos",
-    description: `Lorem ipsum dolor sit amet consectetur. Ut congue semper laoreet
-    tortor nunc massa vel.`,
-  },
-  {
-    icon: "/svg/item-services-catalog.svg",
-    title: "Catalogo",
-    description: `Lorem ipsum dolor sit amet consectetur. Ut congue semper laoreet
-    tortor nunc massa vel.`,
-  },
-];
+import CardService from "@/components/CardService/CardService";
+import listServices from "../utils/"
 
 export default function HomePage() {
   return (
@@ -69,18 +32,12 @@ export default function HomePage() {
         <article className=" flex gap-4 flex-wrap items-center justify-center">
           {/* Cards de los diversos servicios */}
           {listServices.map((item) => (
-            <div key={item.title} className=" w-[400px] h-[300px] bg-[#142137] flex flex-col items-center justify-center gap-y-5">
-              <Image
-                src={item.icon}
-                width={100}
-                height={100}
-                alt={`Imagen de servicios ${item.title}`}
-              />
-              <h3 className=" text-xl font-bold">{item.title}</h3>
-              <p className=" text-center text-base font-normal max-w-[250px]">
-                {item.description}
-              </p>
-            </div>
+            <CardService
+              key={item.title}
+              title={item.title}
+              icon={item.icon}
+              description={item.description}
+            />
           ))}
         </article>
       </section>
