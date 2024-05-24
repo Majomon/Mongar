@@ -1,14 +1,13 @@
-import Logo from "@/assets/Logo.png";
 import Image from "next/image";
+import Link from "next/link";
 import { MenuLinksFooter } from "./MenuLinksFooter";
 import { Redes } from "./Redes";
-import Link from "next/link";
 
 export const MainFooter = () => {
   return (
     <div className="absolute inset-0 w-full flex flex-col justify-center items-center gap-2">
       <Link href={"#inicio"} className="">
-        <Image src={Logo} alt="Logo" width={20} height={20} />
+        <Image src={"/svg/Logo-alternativeWhite.svg"} alt="Logo" width={38.5} height={55} />
       </Link>
       <MenuLinksFooter />
       <Redes />
