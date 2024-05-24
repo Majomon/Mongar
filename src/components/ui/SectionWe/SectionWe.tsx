@@ -10,7 +10,7 @@ export default function SectionWe() {
           src={"/image/Image-we-reference.png"}
           width={365}
           height={380}
-          className=""
+          className="z-50"
           alt="imagen que hace referencia a nosotros"
         />
         <ContainTextSectionWe />
