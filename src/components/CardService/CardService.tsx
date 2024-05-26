@@ -1,7 +1,8 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import Image from "next/image";
 import { CardServices } from "@/interfaces/CardServices";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function CardService({
   title,
@@ -10,12 +11,43 @@ export default function CardService({
   shadowColor,
   color,
 }: CardServices) {
-  const [isHoverIcon, setIsHoverIcon] = useState(false);
-  
+  const [isHoverIcon, setIsHoverIcon] = useState<boolean>(false);
+  const [colorShadow, setColorShadow] = useState<string>("");
+  const [colorTitle, setColorTitle] = useState<string>("");
+
+  useEffect(() => {
+    switch (title) {
+      case "Landing Page":
+        setColorShadow("shadow-[#4DD038]");
+        setColorTitle("text-[#4DD038]");
+        break;
+      case "CRM":
+        setColorShadow("shadow-[#E8AA33]");
+        setColorTitle("text-[#E8AA33]");
+        break;
+      case "E-commers":
+        setColorShadow("shadow-[#DA3DC1]");
+        setColorTitle("text-[#DA3DC1]");
+        break;
+      case "Rediseño Web":
+        setColorShadow("shadow-[#12C0B6]");
+        setColorTitle("text-[#12C0B6]");
+        break;
+      case "Sitios Web Coorporativos":
+        setColorShadow("shadow-[#BF2121]");
+        setColorTitle("text-[#BF2121]");
+        break;
+      case "Catalogo":
+        setColorShadow("shadow-[#C0125B]");
+        setColorTitle("text-[#C0125B]");
+        break;
+    }
+  }, [title]);
+
   return (
     <div
       className={`w-[280px] sm:w-[300px] lg:w-[340px] h-[300px] bg-[#142137] flex flex-col items-center justify-center gap-y-5 `}
-      onMouseOver={() => {setIsHoverIcon(true),console.log(color)}}
+      onMouseOver={() => setIsHoverIcon(true)}
       onMouseLeave={() => setIsHoverIcon(false)}
     >
       <Image
@@ -23,13 +55,13 @@ export default function CardService({
         width={100}
         height={100}
         className={`${
-          isHoverIcon ? ` shadow-xl shadow-${shadowColor} rounded-full ` : ""
+          isHoverIcon ? ` shadow-xl ${colorShadow} rounded-full ` : ""
         } transition-all duration-500`}
         alt={`Imagen de servicios ${title} `}
       />
       <h3
         className={`text-xl font-bold transition-all duration-300 ${
-          isHoverIcon ? ` text-[${color}] ` : ``
+          isHoverIcon ? ` ${colorTitle} ` : ``
         }`}
       >
         {title}
