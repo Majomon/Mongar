@@ -8,8 +8,6 @@ export default function CardService({
   title,
   icon,
   description,
-  shadowColor,
-  color,
 }: CardServices) {
   const [isHoverIcon, setIsHoverIcon] = useState<boolean>(false);
   const [colorShadow, setColorShadow] = useState<string>("");
@@ -55,7 +53,7 @@ export default function CardService({
         width={100}
         height={100}
         className={`${
-          isHoverIcon ? ` shadow-xl ${colorShadow} rounded-full ` : ""
+          isHoverIcon ? ` shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px] ${colorShadow} rounded-full ` : ""
         } transition-all duration-500`}
         alt={`Imagen de servicios ${title} `}
       />

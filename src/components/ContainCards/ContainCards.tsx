@@ -13,8 +13,6 @@ export default function ContainCards() {
           title={item.title}
           icon={item.icon}
           description={item.description}
-          shadowColor={item.shadowColor}
-          color={item.color}
         />
       ))}
     </article>
