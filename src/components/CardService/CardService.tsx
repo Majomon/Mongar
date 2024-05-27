@@ -44,7 +44,7 @@ export default function CardService({
 
   return (
     <div
-      className={`w-[280px] sm:w-[300px] lg:w-[340px] h-[300px] bg-[#142137] flex flex-col items-center justify-center gap-y-5 `}
+      className={`w-[280px] sm:w-[300px] lg:w-[340px] h-[300px] bg-[#142137] flex flex-col items-center justify-center gap-y-5 cursor-pointer`}
       onMouseOver={() => setIsHoverIcon(true)}
       onMouseLeave={() => setIsHoverIcon(false)}
     >
