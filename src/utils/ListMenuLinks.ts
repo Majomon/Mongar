@@ -28,8 +28,8 @@ export const listMenu: ListMenu[] = [
     name: "Equipo",
     href: "#equipo",
   },
-  {
+/*   {
     name: "Contacto",
     href: "#contacto",
-  },
+  }, */
 ];

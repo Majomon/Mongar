@@ -6,6 +6,7 @@ import Image from "next/image";
 import SectionWe from "../components/ui/SectionWe/SectionWe";
 import SectionPortafolio from "@/components/ui/SectionPortafolio/SectionPortafolio";
 import { Testimonios } from "@/components/Testimonios/Testimonios";
+import { ContactResponsive } from "@/components/ContactResponsive/ContactResponsive";
 
 export default function HomePage() {
   return (
@@ -32,6 +33,7 @@ export default function HomePage() {
       <Testimonios />
       <Team />
       <Contact />
+      <ContactResponsive />
     </main>
   );
 }

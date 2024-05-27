@@ -19,7 +19,7 @@ export const Testimonios = () => {
   return (
     <div id="testimonios" className="w-full bg-darkBlue-950">
       <div className="w-full md:w-8/12 mx-auto flex flex-col md:flex-row gap-10 pb-10">
-        <div className="w-full md:w-6/12 flex flex-col md:flex-row gap-y-10 px-10 py-10">
+        <div className="w-full md:w-6/12 flex flex-col gap-y-10 px-10 py-10">
           <TitleGeneral name="Testimonios" />
           <p className="text-center text-xs md:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta

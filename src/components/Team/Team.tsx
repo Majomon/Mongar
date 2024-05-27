@@ -57,9 +57,7 @@ const team = [
 
 export const Team = () => {
   return (
-    /*     <section className="w-full h-screen mx-auto flex justify-center items-end bg-[url('/svg/Team.svg')] bg-no-repeat bg-cover bg-center relative">
-     */
-    <section className="w-full h-fit relative py-10">
+    <section className="w-full h-fit relative py-10" id="equipo">
       <Image
         src={TeamImg}
         alt="Team"

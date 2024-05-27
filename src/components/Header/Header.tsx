@@ -9,7 +9,7 @@ export const Header = () => {
       <nav className="w-full h-full px-8 flex items-center justify-between">
         <Image src={"/svg/Logo-main.svg"} alt="LogoMongar" width={38.5} height={55} />
         <MenuLinks />
-        <ButtonGeneral href="#contact" label="Contactar" />
+        <ButtonGeneral href="#contacto" label="Contactar" />
         <NavbarResponsive />
       </nav>
     </header>

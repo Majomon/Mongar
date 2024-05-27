@@ -4,7 +4,7 @@ import ContainCards from "@/components/ContainCards/ContainCards";
 
 export default function SectionServices() {
   return (
-    <section className=" w-full h-fit py-28 relative flex flex-col gap-y-14 items-center justify-center overflow-x-hidden">
+    <section className=" w-full h-fit py-28 relative flex flex-col gap-y-14 items-center justify-center overflow-x-hidden" id="servicios">
       <Image
         src={"/svg/Ellipse-services.svg"}
         className=" absolute left-0 -top-1 -z-50"
