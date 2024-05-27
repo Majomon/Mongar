@@ -26,14 +26,14 @@ export const NavbarResponsive = () => {
       <section
         className={`block ${
           isOpen ? "left-0" : "-left-[100%]"
-        } transition-all duration-300  w-[100vw] h-screen fixed top-0 flex items-center justify-center bg-mossGreen-800`}
+        } transition-all duration-300  w-[100vw] h-screen fixed top-0 flex items-center justify-center bg-mossGreen-800/80 backdrop-blur`}
       >
         <ul className="flex flex-col items-start gap-6 font-normal text-sm">
           {listMenu.map((item, index) => (
             <Link
               key={index}
               href={item.href}
-              className="font-semibold text-2xl hover:text-mossGreen-400 hover:transition-all"
+              className={`font-semibold text-2xl hover:text-mossGreen-400 `}
               onClick={() => setIsOpen(false)}
             >
               {item.name}
