@@ -2,6 +2,7 @@ import Image from "next/image";
 import TeamImg from "@/assets/Team.png";
 import MauriImg from "@/assets/Mauri.jpeg";
 import { RedesTeam } from "./RedesTeam";
+import TitleGeneral from "../TitleGeneral/TitleGeneral";
 
 const team = [
   {
@@ -63,11 +64,7 @@ export const Team = () => {
         alt="Team"
         className="w-full h-full absolute -top-8 -z-10"
       />
-      <div className="w-full h-fit flex justify-center items-center gap-2 z-50">
-        <div className="w-6 h-6 rounded-full bg-mossGreen-500" />
-        <h2 className="">Equipo</h2>
-        <div className="w-6 h-6 rounded-full bg-mossGreen-500" />
-      </div>
+      <TitleGeneral name="Equipo" />
       <div className="w-full flex flex-col sm:flex-row justify-center items-center py-6 gap-10">
         {team.map((pers, index) => (
           <div
@@ -76,8 +73,8 @@ export const Team = () => {
           >
             <Image src={pers.img} alt={pers.name} width={300} height={300} />
             <div className="flex flex-col items-center justify-center gap-y-2">
-              <h2 className="font-bold text-lg">{pers.name}</h2>
-              <p className="font-semibold text-xs">{pers.area}</p>
+              <h2 className="font-bold text-xl">{pers.name}</h2>
+              <p className="font-normal text-xbase">{pers.area}</p>
               <RedesTeam redes={pers.redes} />
             </div>
           </div>
