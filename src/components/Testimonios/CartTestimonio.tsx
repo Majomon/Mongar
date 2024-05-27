@@ -1,7 +1,12 @@
 import MauriImg from "@/assets/Mauri.jpeg";
 import Image from "next/image";
 
-export const CartTestimonio = () => {
+interface Props {
+  name: string;
+  profile: string;
+}
+
+export const CartTestimonio = ({ name, profile }: Props) => {
   return (
     <div className="p-4">
       <p>
@@ -17,8 +22,8 @@ export const CartTestimonio = () => {
           className="w-28 h-28 object-cover border-4 border-mossGreen-500 rounded-full"
         />
         <div>
-          <h2>Mauri</h2>
-          <h4>Developer</h4>
+          <h2>{name}</h2>
+          <h4>{profile}</h4>
         </div>
       </div>
     </div>
