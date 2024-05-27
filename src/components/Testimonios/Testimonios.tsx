@@ -5,7 +5,7 @@ export const Testimonios = () => {
   return (
     <section id="testimonios" className="w-full bg-darkBlue-950">
       <div className="w-8/12 mx-auto flex gap-10 pb-10">
-        <div className="w-6/12 flex flex-col gap-y-10">
+        <div className="w-6/12 flex flex-col gap-y-10 px-10">
           <TitleGeneral name="Testimonios" />
           <p className="text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta

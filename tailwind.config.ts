@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import flowbite from "flowbite-react/tailwind";
 
 const config: Config = {
   content: [
@@ -6,6 +7,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    flowbite.content(),
   ],
   theme: {
     extend: {
@@ -82,12 +84,12 @@ const config: Config = {
           webSite:"#BF2121",
           catalog:"#C0125B"
         }, */
-        "landing": "#4DD038",
-        "crm": "#E8AA33",
-        "ecommers": "#DA3DC1",
-        "desing": "#12C0B6",
-        "webSite": "#BF2121",
-        "catalog": "#C0125B",
+        landing: "#4DD038",
+        crm: "#E8AA33",
+        ecommers: "#DA3DC1",
+        desing: "#12C0B6",
+        webSite: "#BF2121",
+        catalog: "#C0125B",
       },
       backgroundImage: {
         "bg-section-we": "url('/image/#0b1628')",
@@ -96,13 +98,14 @@ const config: Config = {
         "gradient-mossGreen": "linear-gradient(to right, #0b493e,#0b1628 )",
         "gradient-formContact": "linear-gradient(to bottom, #1a498a,#0b1628 )",
         "gradient-cardTeam": "linear-gradient(to right, #1a498a,#0b1628 )",
-        "gradient-cartTestimonio": "linear-gradient(to right, #0b493e,#0b1628 )",
+        "gradient-cartTestimonio":
+          "linear-gradient(to right, #0b493e,#0b1628 )",
       },
       boxShadow: {
         shadowCard: "0 0px 0px 3px rgba(0, 0, 0, 0.3)",
       },
     },
   },
-  plugins: [],
+  plugins: [flowbite.plugin()],
 };
 export default config;
