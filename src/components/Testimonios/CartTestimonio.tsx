@@ -9,7 +9,7 @@ interface Props {
 export const CartTestimonio = ({ name, profile }: Props) => {
   return (
     <div className="p-4">
-      <p>
+      <p className="text-xs md:text-lg">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex
         libero.
       </p>
@@ -19,7 +19,7 @@ export const CartTestimonio = ({ name, profile }: Props) => {
           alt="Mauri"
           width={100}
           height={100}
-          className="w-28 h-28 object-cover border-4 border-mossGreen-500 rounded-full"
+          className="w-16 h-16 md:w-28 md:h-28 object-cover border-4 border-mossGreen-500 rounded-full"
         />
         <div>
           <h2>{name}</h2>
