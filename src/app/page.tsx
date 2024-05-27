@@ -4,7 +4,8 @@ import SectionHero from "@/components/ui/SectionHero/SectionHero";
 import SectionServices from "@/components/ui/SectionServices/SectionServices";
 import Image from "next/image";
 import SectionWe from "../components/ui/SectionWe/SectionWe";
-import SectionPortafolio from "@/components/ui/SectionPortafolio/SectionPortafolio"
+import SectionPortafolio from "@/components/ui/SectionPortafolio/SectionPortafolio";
+import { Testimonios } from "@/components/Testimonios/Testimonios";
 
 export default function HomePage() {
   return (
@@ -28,6 +29,7 @@ export default function HomePage() {
       <SectionWe />
       <SectionServices />
       <SectionPortafolio />
+      <Testimonios />
       <Team />
       <Contact />
     </main>

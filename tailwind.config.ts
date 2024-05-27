@@ -96,6 +96,7 @@ const config: Config = {
         "gradient-mossGreen": "linear-gradient(to right, #0b493e,#0b1628 )",
         "gradient-formContact": "linear-gradient(to bottom, #1a498a,#0b1628 )",
         "gradient-cardTeam": "linear-gradient(to right, #1a498a,#0b1628 )",
+        "gradient-cartTestimonio": "linear-gradient(to right, #0b493e,#0b1628 )",
       },
       boxShadow: {
         shadowCard: "0 0px 0px 3px rgba(0, 0, 0, 0.3)",
