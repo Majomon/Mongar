@@ -33,6 +33,13 @@ export default function HomePage() {
       <Testimonios />
       <Team />
       <Contact />
+      <Image
+        src={"/svg/Ellipse-contact.svg"}
+        className=" absolute bottom-0 left-0 -z-50  "
+        width={886}
+        height={938}
+        alt=""
+      />
       <ContactResponsive />
     </main>
   );
