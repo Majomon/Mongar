@@ -16,7 +16,7 @@ export const RedesContactResponsive = () => {
             width={26}
             height={26}
           />
-          <p className="text-sm">Mongar Developer</p>
+          <p className=" text-base font-semibold">Mongar Developer</p>
         </Link>
         <Link
           href={
@@ -25,7 +25,7 @@ export const RedesContactResponsive = () => {
           className="flex gap-x-4"
         >
           <Image src={"/svg/Email.svg"} alt="Email" width={26} height={26} />
-          <p className="text-sm">mongar.developer@gmail.com</p>
+          <p className=" text-base font-semibold">mongar.developer@gmail.com</p>
         </Link>
         <Link
           href={"https://www.facebook.com/profile.php?id=61552618487476"}
@@ -38,7 +38,7 @@ export const RedesContactResponsive = () => {
             width={26}
             height={26}
           />
-          <p className="text-sm">mongar.developer</p>
+          <p className=" text-base font-semibold">mongar.developer</p>
         </Link>
       </div>
     </div>
