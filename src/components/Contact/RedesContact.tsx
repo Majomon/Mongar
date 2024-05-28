@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const RedesContact = () => {
   return (
-    <div className="flex flex-col gap-4 text-xs">
+    <div className="flex flex-col gap-10 text-xs">
       <Link
         href={"https://www.instagram.com/mongar.developer/"}
         target="_blank"
@@ -15,7 +15,7 @@ export const RedesContact = () => {
           width={26}
           height={26}
         />
-        <p className="">Mongar Developer</p>
+        <p className=" text-base font-semibold">Mongar Developer</p>
       </Link>
       <Link
         href={
@@ -24,7 +24,7 @@ export const RedesContact = () => {
         className="flex gap-x-4"
       >
         <Image src={"/svg/Email.svg"} alt="Email" width={26} height={26} />
-        <p>mongar.developer@gmail.com</p>
+        <p className=" text-base font-semibold">mongar.developer@gmail.com</p>
       </Link>
       <Link
         href={"https://www.facebook.com/profile.php?id=61552618487476"}
@@ -37,7 +37,7 @@ export const RedesContact = () => {
           width={26}
           height={26}
         />
-        <p>mongar.developer</p>
+        <p className=" text-base font-semibold">mongar.developer</p>
       </Link>
     </div>
   );

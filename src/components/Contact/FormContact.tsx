@@ -29,10 +29,10 @@ export const FormContact = () => {
   };
 
   return (
-    <div className="w-7/12 h-full bg-gradient-formContact shadow-2xl pt-16">
+    <div className="w-[65%] h-full bg-gradient-formContact shadow-2xl">
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="w-8/12 h-full flex flex-col items-start justify-between gap-4 ml-36 pb-2"
+        className="w-8/12 h-full flex flex-col items-start justify-between gap-4 ml-36 py-16 "
       >
         <div className="w-full">
           <input
