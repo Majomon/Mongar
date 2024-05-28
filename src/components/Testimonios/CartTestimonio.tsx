@@ -9,21 +9,21 @@ interface Props {
 export const CartTestimonio = ({ name, profile }: Props) => {
   return (
     <div className="p-4">
-      <p className="text-xs md:text-lg">
+      <p className="text-base md:text-lg text-center">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex
         libero.
       </p>
-      <div className="w-full flex justify-center items-center gap-x-10 pt-10">
+      <div className="w-full flex justify-center items-center gap-x-6 pt-10">
         <Image
           src={MauriImg}
           alt="Mauri"
-          width={100}
-          height={100}
-          className="w-16 h-16 md:w-28 md:h-28 object-cover border-4 border-mossGreen-500 rounded-full"
+          width={110}
+          height={110}
+          className=" object-cover border-2 w-[110px] h-[110px] border-mossGreen-500 rounded-full"
         />
         <div>
-          <h2>{name}</h2>
-          <h4>{profile}</h4>
+          <h2 className=" font-bold text-xl">{name}</h2>
+          <h4 className=" font-normal text-base">{profile}</h4>
         </div>
       </div>
     </div>
