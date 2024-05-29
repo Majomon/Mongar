@@ -13,14 +13,13 @@ export const Testimonios = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-  var settings = {
-    customPaging: function(i: number) {
+  const settings = {
+    customPaging: function() {
       return (
         <></>
       );
     },
     dots: true,
-    lazyLoad: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
