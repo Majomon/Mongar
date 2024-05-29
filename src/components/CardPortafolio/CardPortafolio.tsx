@@ -2,16 +2,30 @@
 import { Portafolio } from "@/interfaces";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-export default function CardPortafolio({ src, href, name, category }: Portafolio) {
-    const [isHover, setIsHover] = useState(false);
+export default function CardPortafolio({
+  src,
+  href,
+  name,
+  category,
+}: Portafolio) {
+  const [isHover, setIsHover] = useState(false);
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <Link
       href={href}
       className=" w-[300px] md:w-[340px] h-[300px] transition-all duration-100 relative overflow-hidden"
       onMouseOver={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="600"
+      
     >
       <div
         className={`absolute left-0 bg-mossGreen-900/90 w-[300px] md:w-[340px] h-[300px] z-10 transition-all duration-300  ${

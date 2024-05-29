@@ -8,7 +8,9 @@ import SectionPortafolio from "@/components/ui/SectionPortafolio/SectionPortafol
 import { Testimonios } from "@/components/Testimonios/Testimonios";
 import { ContactResponsive } from "@/components/ContactResponsive/ContactResponsive";
 
+
 export default function HomePage() {
+ 
   return (
     <main className=" w-full min-h-screen overflow-x-hidden min-[900px]:overflow-x-visible">
       {/* elipce primario */}
