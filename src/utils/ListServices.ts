@@ -14,7 +14,7 @@ const listServices: CardServices[] = [
   {
     icon: "/svg/Item-services-Ecommers.svg",
     title: "E-commers",
-    description: `Plataforma en línea donde se realizan transacciones de compra y venta de productos o servicios. los clientes pueden explorar catálogos de productos, agregar artículos al carrito de compras, realizar pagos seguros y recibir los productos en su domicilio `,
+    description: `Plataforma en línea donde se realizan transacciones de compra y venta de productos o servicios. los clientes pueden explorar catálogos de productos, agregar al carrito de compras y realizar pagos seguros`,
   },
   {
     icon: "/svg/Item-services-desing.svg",

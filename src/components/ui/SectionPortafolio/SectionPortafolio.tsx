@@ -17,18 +17,18 @@ const listCardProtafolio: Portafolio[] = [
     name: "FotografiaExtrema",
     category: "Diseño grafico",
   },
-  {
+  /* {
     src: "/image/innmobiliaria-rediseño.png",
     href: "https://www.figma.com/design/TV73WARJviCHApQLU7zFNE/Untitled?node-id=0-1&t=UJ7PICsgUI85CVsR-0",
     name: "Inmobiliaria",
     category: "Rediseño Web",
-  },
-/*   {
+  }, */
+  {
     src: "/image/Landing-page-Teeno.png",
-    href: "#",
+    href: "https://landing-pages-teeno.netlify.app/",
     name: "Teeno",
     category: "Landing Page",
-  }, */
+  },
   {
     src: "/image/Ruslux-Inmobiliaria.png",
     href: "https://inmobiliaria-client.vercel.app/",
@@ -62,7 +62,7 @@ export default function SectionPortafolio() {
           />
         ))}
       </article>
-      {/* <ButtonGeneralMain label="Ver mas" href={"#"} /> */}
+      {listCardProtafolio.length > 6 && <ButtonGeneralMain label="Ver mas" href={"#"} />}
     </section>
   );
 }

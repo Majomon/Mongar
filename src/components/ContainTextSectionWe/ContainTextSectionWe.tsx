@@ -22,7 +22,7 @@ export default function ContainTextSectionWe() {
         nuestra creatividad y habilidades técnicas para superar desafíos y
         entregar resultados excepcionales.
       </p>
-      {/* <ButtonGeneralMain href="#" label="Lorem Button" /> */}
+      <ButtonGeneralMain href="#" label="Empecemos ahora" />
     </article>
   );
 }

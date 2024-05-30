@@ -17,7 +17,7 @@ export const CartTestimonio = ({ name, profile, label, image }: Props) => {
           alt={name}
           width={110}
           height={110}
-          className=" object-cover border-2 w-[110px] h-[110px] border-mossGreen-500 rounded-full bg-gray-50"
+          className=" object-cover border-2 w-[110px] h-[110px] border-mossGreen-500 rounded-full"
         />
         <div>
           <h2 className=" font-bold text-xl">{name}</h2>
