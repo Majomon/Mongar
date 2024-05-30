@@ -12,7 +12,7 @@ import { ContactResponsive } from "@/components/ContactResponsive/ContactRespons
 export default function HomePage() {
  
   return (
-    <main className=" w-full min-h-screen overflow-x-hidden min-[900px]:overflow-x-visible">
+    <main className=" w-full min-h-screen overflow-x-hidden min-[900px]:overflow-x-visible overflow-hidden">
       {/* elipce primario */}
       <Image
         src={"/svg/Ellipse-Hero-1.svg"}
