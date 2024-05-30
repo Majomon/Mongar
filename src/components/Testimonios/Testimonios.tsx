@@ -32,15 +32,15 @@ export const Testimonios = () => {
       name: "Naty",
       profile: "TezaShoes",
       label:
-        "Mongar no solo creó una tienda online visualmente atractiva, sino que también mejoraron la experiencia del usuario, lo que resultó en un aumento de nuestras ventas.",
+        "Mongar no solo creó una tienda online visualmente atractiva, sino que también mejoraron la experiencia del usuario, lo que resultó en un aumento de nuestras ventas. La atención al detalle y el profesionalismo de su equipo son insuperables.",
       image: "/testimonio/Teza.webp",
     },
     {
       name: "Yosef",
       profile: "Ruslux",
       label:
-        "Muy profesionales y atentos a cada detalle. Nuestro sitio web corporativo refleja perfectamente nuestra esencia y ha recibido excelentes comentarios.",
-        image: "/testimonio/Iruslux.webp",
+        "El equipo de Mongar fue súper profesional y cuidaron cada detalle. Nuestro sitio web corporativo quedó justo como queríamos y hemos recibido un montón de buenos comentarios. ¡Definitivamente los recomendaría!",
+      image: "/testimonio/Iruslux.webp",
     },
   ];
   return (
@@ -63,7 +63,10 @@ export const Testimonios = () => {
         >
           <TitleGeneral name="Testimonios" />
           <p className="font-normal text-center text-lg">
-          En Mongar, nos enorgullecemos de transformar ideas en sitios web impresionantes y funcionales. Pero no solo confíes en nuestra palabra, escucha lo que nuestros clientes tienen que decir sobre su experiencia trabajando con nosotros:
+            En Mongar, nos enorgullecemos de transformar ideas en sitios web
+            impresionantes y funcionales. Pero no solo confíes en nuestra
+            palabra, escucha lo que nuestros clientes tienen que decir sobre su
+            experiencia trabajando con nosotros:
           </p>
         </article>
         <article
