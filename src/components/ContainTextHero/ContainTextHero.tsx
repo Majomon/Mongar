@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import ButtonGeneralMain from "../ButtonGeneralMain/ButtonGeneralMain";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { ButtonGeneral } from "../ButtonGral/ButtonGeneral";
 
 export default function ContainTextHero() {
   useEffect(() => {
@@ -31,6 +32,8 @@ export default function ContainTextHero() {
         MONGAR , creamos experiencias digitales únicas y personalizadas que dan
         vida a la esencia de tu marca.{" "}
       </p>
+      <ButtonGeneral href="#contacto" label="Solicitá tu presupuesto" />
+
       {/* <ButtonGeneralMain label={"Lorem Contact"} href={"#"} /> */}
     </article>
   );
