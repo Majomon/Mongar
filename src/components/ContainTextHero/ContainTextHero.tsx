@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Image from "next/image";
 import React, { useEffect } from "react";
 import ButtonGeneralMain from "../ButtonGeneralMain/ButtonGeneralMain";
@@ -6,12 +6,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function ContainTextHero() {
-  
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <article className="flex flex-col items-center justify-center md:items-start gap-y-8 md:w-[40%] md:max-w-[525px]" data-aos="fade-right">
+    <article
+      className="flex flex-col items-center justify-center md:items-start gap-y-8 md:w-[40%] md:max-w-[525px]"
+      data-aos="fade-right"
+    >
       <div className=" flex flex-col md:flex-row gap-x-5 md:items-start items-center">
         <Image
           src={"/svg/icon-titleMain.svg"}
@@ -25,7 +27,9 @@ export default function ContainTextHero() {
         </h1>
       </div>
       <p className=" text-lg font-normal text-center md:text-left">
-      Nos dedicamos a construir la sede digital de tu marca, convirtiendo tus ideas en lo que necesitas para impulsar tu negocio. Descubre cómo podemos ayudarte a destacar en el mundo digital y atraer a más clientes.
+        ¿Necesitas un sitio web que impacte y funcione a la perfección? En
+        MONGAR , creamos experiencias digitales únicas y personalizadas que dan
+        vida a la esencia de tu marca.{" "}
       </p>
       {/* <ButtonGeneralMain label={"Lorem Contact"} href={"#"} /> */}
     </article>

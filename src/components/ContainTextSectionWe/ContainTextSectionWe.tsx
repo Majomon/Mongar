@@ -16,11 +16,11 @@ export default function ContainTextSectionWe() {
     >
       <TitleGeneral name="Nosotros" />
       <p className=" text-lg font-normal max-w-[612px] text-center">
-        En Mongar, nos dedicamos al diseño y desarrollo web, creando
-        experiencias digitales únicas. Transformamos ideas en sitios web
-        impresionantes y funcionales. Desde páginas corporativas hasta comercio
-        electrónico, hacemos crecer tu presencia online con soluciones
-        innovadoras y personalizadas.
+        Somos un equipo apasionado y comprometido con el mundo del desarrollo
+        web. Nuestro viaje apenas comienza, pero nuestra determinación es
+        infinita. Con cada proyecto, buscamos aprender y crecer, aprovechando
+        nuestra creatividad y habilidades técnicas para superar desafíos y
+        entregar resultados excepcionales.
       </p>
       {/* <ButtonGeneralMain href="#" label="Lorem Button" /> */}
     </article>

@@ -4,17 +4,17 @@ const listServices: CardServices[] = [
   {
     icon: "/svg/Item-services-landingPage.svg",
     title: "Landing Page",
-    description: `Convierte visitantes en clientes potenciales de tu producto o servicio mediante una oferta clara y específica.`,
+    description: `Diseñada específicamente para convertir visitantes en leads o clientes potenciales. Suele tener un enfoque claro y directo en una oferta o producto particular`,
   },
   {
     icon: "/svg/item-services-CRM.svg",
     title: "CRM",
-    description: `Centraliza, organiza, administra y visualiza toda la información y actividades de tus clientes en un solo lugar.`,
+    description: `Diseñado para gestionar las relaciones con los clientes de una empresa de manera eficiente. Permite almacenar y organizar información clave sobre clientes y prospectos`,
   },
   {
     icon: "/svg/Item-services-Ecommers.svg",
     title: "E-commers",
-    description: `Impulsa tus ventas online con una plataforma de comercio electrónico intuitiva y eficiente, diseñada para atraer y convertir a millones de clientes potenciales.`,
+    description: `Plataforma en línea donde se realizan transacciones de compra y venta de productos o servicios. los clientes pueden explorar catálogos de productos, agregar artículos al carrito de compras, realizar pagos seguros y recibir los productos en su domicilio `,
   },
   {
     icon: "/svg/Item-services-desing.svg",
@@ -24,7 +24,7 @@ const listServices: CardServices[] = [
   {
     icon: "/svg/Item-services-websiteCoding.svg",
     title: "Sitios Web Coorporativos",
-    description: `Posiciona tu empresa en la web con un sitio corporativo elegante y profesional. `,
+    description: `Es una herramienta fundamental para establecer una presencia digital sólida y proyectar una imagen profesional y confiable.`,
   },
   {
     icon: "/svg/item-services-catalog.svg",
