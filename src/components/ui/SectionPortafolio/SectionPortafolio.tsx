@@ -5,12 +5,12 @@ import CardPortafolio from "../../CardPortafolio/CardPortafolio";
 import { Portafolio } from "@/interfaces";
 
 const listCardProtafolio: Portafolio[] = [
-  {
+  /*   {
     src: "/image/FakeStore-TiendaOnline.png",
     href: "#",
     name: "Fake Store",
     category: "E-coomers",
-  },
+  }, */
   {
     src: "/image/FotografiaExtrema-Cartel.png",
     href: "#",
@@ -19,25 +19,25 @@ const listCardProtafolio: Portafolio[] = [
   },
   {
     src: "/image/innmobiliaria-rediseño.png",
-    href: "#",
+    href: "https://www.figma.com/design/TV73WARJviCHApQLU7zFNE/Untitled?node-id=0-1&t=UJ7PICsgUI85CVsR-0",
     name: "Inmobiliaria",
     category: "Rediseño Web",
   },
-  {
+/*   {
     src: "/image/Landing-page-Teeno.png",
     href: "#",
     name: "Teeno",
     category: "Landing Page",
-  },
+  }, */
   {
     src: "/image/Ruslux-Inmobiliaria.png",
-    href: "#",
+    href: "https://inmobiliaria-client.vercel.app/",
     name: "Ruslux-Inmobiliaria",
     category: "Sitio web",
   },
   {
     src: "/image/Teza-Ecoomers.png",
-    href: "#",
+    href: "https://teza-shoes-c.vercel.app/",
     name: "Teza",
     category: "E-commers",
   },
@@ -62,7 +62,7 @@ export default function SectionPortafolio() {
           />
         ))}
       </article>
-      <ButtonGeneralMain label="Ver mas" href={"#"} />
+      {/* <ButtonGeneralMain label="Ver mas" href={"#"} /> */}
     </section>
   );
 }

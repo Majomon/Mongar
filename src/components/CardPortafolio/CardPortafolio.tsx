@@ -19,13 +19,13 @@ export default function CardPortafolio({
   return (
     <Link
       href={href}
+      target="_blank"
       className=" w-[300px] md:w-[340px] h-[300px] transition-all duration-100 relative overflow-hidden"
       onMouseOver={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="600"
-      
     >
       <div
         className={`absolute left-0 bg-mossGreen-900/90 w-[300px] md:w-[340px] h-[300px] z-10 transition-all duration-300  ${
