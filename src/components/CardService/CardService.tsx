@@ -68,13 +68,13 @@ export default function CardService({
         alt={`Imagen de servicios ${title} `}
       />
       <h3
-        className={`text-xl font-bold transition-all duration-300 ${
+        className={`text-lg font-bold transition-all duration-300 ${
           isHoverIcon ? ` ${colorTitle} ` : ``
         }`}
       >
         {title}
       </h3>
-      <p className=" text-center text-base font-normal max-w-[250px]">
+      <p className=" text-center text-sm font-normal max-w-[250px]">
         {description}
       </p>
     </div>

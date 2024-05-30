@@ -1,6 +1,6 @@
+import ContainCards from "@/components/ContainCards/ContainCards";
 import TitleGeneral from "@/components/TitleGeneral/TitleGeneral";
 import Image from "next/image";
-import ContainCards from "@/components/ContainCards/ContainCards";
 
 export default function SectionServices() {
   return (

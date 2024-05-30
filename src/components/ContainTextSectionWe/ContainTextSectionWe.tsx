@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { useEffect } from "react";
 import ButtonGeneralMain from "../ButtonGeneralMain/ButtonGeneralMain";
 import TitleGeneral from "../TitleGeneral/TitleGeneral";
@@ -10,16 +10,19 @@ export default function ContainTextSectionWe() {
     AOS.init();
   }, []);
   return (
-    <article className=" flex flex-col items-center justify-center gap-y-5" data-aos="fade-up">
+    <article
+      className=" flex flex-col items-center justify-center gap-y-5"
+      data-aos="fade-up"
+    >
       <TitleGeneral name="Nosotros" />
       <p className=" text-lg font-normal max-w-[612px] text-center">
-        Lorem ipsum dolor sit amet consectetur. Ut congue semper laoreet tortor
-        nunc massa vel. Cursus et ac volutpat maecenas eu nisl sed. Varius enim
-        risus pellentesque in varius Lorem ipsum dolor sit amet consectetur. Ut
-        congue semper laoreet tortor nunc massa vel. Cursus et ac volutpat
-        maecenas eu nisl sed. Varius enim risus pellentesque in varius
+        En Mongar, nos dedicamos al diseño y desarrollo web, creando
+        experiencias digitales únicas. Transformamos ideas en sitios web
+        impresionantes y funcionales. Desde páginas corporativas hasta comercio
+        electrónico, hacemos crecer tu presencia online con soluciones
+        innovadoras y personalizadas.
       </p>
-      <ButtonGeneralMain href="#" label="Lorem Button" />
+      {/* <ButtonGeneralMain href="#" label="Lorem Button" /> */}
     </article>
   );
 }

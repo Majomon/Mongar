@@ -24,12 +24,10 @@ export default function ContainTextHero() {
           Diseño y Desarrollo <span className=" font-semibold">MONGAR</span>
         </h1>
       </div>
-      <p className=" text-xl font-normal text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur. Ut congue semper laoreet tortor
-        nunc massa vel. Cursus et ac volutpat maecenas eu nisl sed. Varius enim
-        risus pellentesque in varius
+      <p className=" text-lg font-normal text-center md:text-left">
+      Nos dedicamos a construir la sede digital de tu marca, convirtiendo tus ideas en lo que necesitas para impulsar tu negocio. Descubre cómo podemos ayudarte a destacar en el mundo digital y atraer a más clientes.
       </p>
-      <ButtonGeneralMain label={"Lorem Contact"} href={"#"} />
+      {/* <ButtonGeneralMain label={"Lorem Contact"} href={"#"} /> */}
     </article>
   );
 }
