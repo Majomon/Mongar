@@ -22,7 +22,7 @@ export default function ContainTextSectionWe() {
         nuestra creatividad y habilidades técnicas para superar desafíos y
         entregar resultados excepcionales.
       </p>
-      <ButtonGeneralMain href="#" label="Empecemos ahora" />
+      <ButtonGeneralMain href="https://tally.so/r/w4kKaB" label="Empecemos ahora" />
     </article>
   );
 }

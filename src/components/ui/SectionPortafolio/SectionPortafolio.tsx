@@ -13,16 +13,16 @@ const listCardProtafolio: Portafolio[] = [
   }, */
   {
     src: "/image/FotografiaExtrema-Cartel.png",
-    href: "#",
+    href: "https://www.behance.net/gallery/197414381/Curso-de-fotografia",
     name: "FotografiaExtrema",
-    category: "Diseño grafico",
+    category: "Diseño Grafico",
   },
-  /* {
-    src: "/image/innmobiliaria-rediseño.png",
-    href: "https://www.figma.com/design/TV73WARJviCHApQLU7zFNE/Untitled?node-id=0-1&t=UJ7PICsgUI85CVsR-0",
-    name: "Inmobiliaria",
-    category: "Rediseño Web",
-  }, */
+  {
+    src: "/image/Teslo-Ecommers.png",
+    href: "https://04-teslo-shop.vercel.app/",
+    name: "Teslo",
+    category: "E-commers",
+  },
   {
     src: "/image/Landing-page-Teeno.png",
     href: "https://landing-pages-teeno.netlify.app/",

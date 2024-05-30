@@ -34,7 +34,7 @@ export default function ContainTextHero() {
       </p>
       {/* <ButtonGeneral href="#contacto" label="Ponete en contacto con nosotros" /> */}
 
-      <ButtonGeneralMain label={"Contactate con nosotros"} href={"#"} />
+      <ButtonGeneralMain label={"Contactate con nosotros"} href={"https://tally.so/r/w4kKaB"} />
     </article>
   );
 }
