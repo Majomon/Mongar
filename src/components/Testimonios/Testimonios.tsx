@@ -8,6 +8,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ButtonGeneralMain from "../ButtonGeneralMain/ButtonGeneralMain";
 
 export const Testimonios = () => {
   useEffect(() => {
@@ -46,7 +47,7 @@ export const Testimonios = () => {
   return (
     <div
       id="testimonios"
-      className="w-full h-fit md:h-[500px] relative flex items-start px-3"
+      className="w-full h-fit md:h-[500px] relative flex items-start px-3 py-8"
     >
       <Image
         src={"/svg/Ellipse-testimont.svg"}
@@ -57,7 +58,7 @@ export const Testimonios = () => {
       />
       <section className="w-full max-w-[1250px] mx-auto flex flex-col justify-center items-center md:flex-row gap-10 ">
         <article
-          className="w-full md:w-1/2 flex flex-col gap-y-10 px-10 py-10"
+          className="w-full md:w-1/2 flex flex-col items-center gap-y-10 px-10 py-10"
           data-aos="zoom-in-down"
           data-aos-duration="500"
         >
@@ -66,8 +67,9 @@ export const Testimonios = () => {
             En Mongar, nos enorgullecemos de transformar ideas en sitios web
             impresionantes y funcionales. Pero no solo confíes en nuestra
             palabra, escucha lo que nuestros clientes tienen que decir sobre su
-            experiencia trabajando con nosotros:
+            experiencia trabajando con nosotros
           </p>
+          <ButtonGeneralMain label="Contanos tu idea" href="https://tally.so/r/w4kKaB" />
         </article>
         <article
           className="w-full md:w-1/2 mx-auto h-fit p-10 border-l-2 transition-all duration-100 border-mossGreen-500 bg-[#ACEED5]/10"

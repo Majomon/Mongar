@@ -1,9 +1,9 @@
 'use client';
-import Image from "next/image";
-import ContainTextSectionWe from "../../ContainTextSectionWe/ContainTextSectionWe";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 import { useEffect } from "react";
+import ContainTextSectionWe from "../../ContainTextSectionWe/ContainTextSectionWe";
 
 export default function SectionWe() {
   useEffect(() => {
@@ -21,6 +21,7 @@ export default function SectionWe() {
           data-aos="fade-down"
         />
         <ContainTextSectionWe />
+        
       </div>
     </section>
   );

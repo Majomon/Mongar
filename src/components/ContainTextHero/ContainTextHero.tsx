@@ -24,7 +24,7 @@ export default function ContainTextHero() {
           alt="Item del titulo principal"
         />
         <h1 className=" text-4xl md:text-5xl font-normal text-mossGreen-500 text-center md:text-left">
-          Diseño y Desarrollo <span className=" font-semibold">MONGAR</span>
+          Diseñamos Tu Éxito <span className=" font-semibold uppercase">Online</span>
         </h1>
       </div>
       <p className=" text-lg font-normal text-center md:text-left">
@@ -32,9 +32,9 @@ export default function ContainTextHero() {
         MONGAR , creamos experiencias digitales únicas y personalizadas que dan
         vida a la esencia de tu marca.{" "}
       </p>
-      <ButtonGeneral href="#contacto" label="Solicitá tu presupuesto" />
+      {/* <ButtonGeneral href="#contacto" label="Ponete en contacto con nosotros" /> */}
 
-      {/* <ButtonGeneralMain label={"Lorem Contact"} href={"#"} /> */}
+      <ButtonGeneralMain label={"Contactate con nosotros"} href={"https://tally.so/r/w4kKaB"} />
     </article>
   );
 }
