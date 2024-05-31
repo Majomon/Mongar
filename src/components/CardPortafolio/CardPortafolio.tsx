@@ -27,6 +27,7 @@ export default function CardPortafolio({
       data-aos-easing="ease-out-cubic"
       data-aos-duration="600"
     >
+      <span className=" rounded-xl bg-mossGreen-600 font-semibold py-1 px-3 absolute top-2 right-2 z-10">{category}</span>
       <div
         className={`absolute left-0 bg-mossGreen-900/90 w-[300px] md:w-[340px] h-[300px] z-10 transition-all duration-300  ${
           isHover ? "top-0" : "-top-[300px]"
