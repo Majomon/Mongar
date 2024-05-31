@@ -28,6 +28,11 @@ export const NavbarResponsive = () => {
           isOpen ? "left-0" : "-left-[100%]"
         } transition-all duration-300  w-[100vw] h-screen fixed top-0 flex items-center justify-center bg-mossGreen-800/80 backdrop-blur`}
       >
+        <div className=" border absolute top-3 right-3 py-2 px-3.5 font-semibold bg-white text-mossGreen-700 rounded-full"
+          onClick={handleClicIsOpen}
+        >
+          X
+        </div>
         <ul className="flex flex-col items-start gap-6 font-normal text-sm">
           {listMenu.map((item, index) => (
             <Link
