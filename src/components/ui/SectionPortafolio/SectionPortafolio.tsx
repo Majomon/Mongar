@@ -5,12 +5,12 @@ import CardPortafolio from "../../CardPortafolio/CardPortafolio";
 import { Portafolio } from "@/interfaces";
 
 const listCardProtafolio: Portafolio[] = [
-  /*   {
-    src: "/image/FakeStore-TiendaOnline.png",
-    href: "#",
-    name: "Fake Store",
-    category: "E-coomers",
-  }, */
+    {
+    src: "/image/LandingPage-portafolio.png",
+    href: "https://portafolio-ezequiel.netlify.app/",
+    name: "Portafolio Eze",
+    category: "Landing Page",
+  },
   {
     src: "/image/FotografiaExtrema-Cartel.png",
     href: "https://www.behance.net/gallery/197414381/Curso-de-fotografia",
@@ -41,6 +41,12 @@ const listCardProtafolio: Portafolio[] = [
     name: "Teza",
     category: "E-commers",
   },
+  {
+    src: "/image/LandingPage-portafolio-mauricio.png",
+    href: "https://porfolio-three-mocha.vercel.app/",
+    name: "Portafolio Mauricio",
+    category: "Landing Page",
+  },
 ];
 
 export default function SectionPortafolio() {
@@ -62,7 +68,7 @@ export default function SectionPortafolio() {
           />
         ))}
       </article>
-      {listCardProtafolio.length > 6 && <ButtonGeneralMain label="Ver mas" href={"#"} />}
+      {/* listCardProtafolio.length > 6 && <ButtonGeneralMain label="Ver mas" href={"#"} /> */}
     </section>
   );
 }
